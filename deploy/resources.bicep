@@ -92,7 +92,11 @@ resource functionapp_regular 'Microsoft.Web/sites@2021-02-01' = {
         {
           name: 'FUNCTIONS_WORKER_RUNTIME'
           value: 'dotnet'
-        }   
+        }  
+        {
+          name: 'WEBSITE_RUN_FROM_PACKAGE'
+          value: '1'
+        } 
         {
           name: 'APPINSIGHTS_INSTRUMENTATIONKEY'
           value: appInsights.properties.InstrumentationKey
@@ -129,6 +133,10 @@ resource functionapp_arcus 'Microsoft.Web/sites@2021-02-01' = {
           name: 'FUNCTIONS_WORKER_RUNTIME'
           value: 'dotnet'
         }   
+        {
+          name: 'WEBSITE_RUN_FROM_PACKAGE'
+          value: '1'
+        }
         {
           name: 'APPINSIGHTS_INSTRUMENTATIONKEY'
           value: appInsights.properties.InstrumentationKey
