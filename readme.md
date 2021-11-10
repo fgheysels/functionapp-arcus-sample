@@ -4,6 +4,11 @@ This is a sample repository which demonstrates how [Arcus.Observability](https:/
 
 There are 2 FunctionApps defined in this repository:
 
+- FunctionApp.Regular
+  This Function does not use Arcus.Observability to log to App Insights
+
+- FunctionApp.Arcus
+  This Function is using Arcus.Observability to log to App Insights
 
 ## Deploying
 
