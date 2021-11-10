@@ -265,3 +265,5 @@ __pycache__/
 /src/functionapp_regular/FunctionApp.Regular/FunctionApp.Regular/Properties/PublishProfiles
 /src/functionapp_regular/FunctionApp.Regular/FunctionApp.Regular/Properties/ServiceDependencies/fg-funapp-regular - Zip Deploy
 /src/functionapp_regular/FunctionApp.Regular/FunctionApp.Regular/Properties
+/src/FunctionApp.Arcus/FunctionApp.Arcus/Properties
+/src/FunctionApp.Regular/FunctionApp.Regular/Properties
