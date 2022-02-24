@@ -35,7 +35,7 @@ namespace FunctionApp.Arcus
                 logConfiguration.WriteTo.AzureApplicationInsights(telemetryKey);
             }
 
-            builder.ClearProvidersExceptFunctionProviders();
+            
             builder.AddSerilog(logConfiguration.CreateLogger());
         }
     }
